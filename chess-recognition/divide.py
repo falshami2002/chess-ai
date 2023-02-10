@@ -45,10 +45,5 @@ def divideBoard(im):
             if x2 - x1 > 5 and y2 - y1 > 5:
                 sub_images.append(sub_image)
 
-    print(len(sub_images))
-    cv2.imshow("Chessboard", dilation)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
-
     # Return array of sub_images
     return sub_images
