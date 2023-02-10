@@ -4,7 +4,7 @@ import tensorflow as tf
 from tensorflow import keras
 from keras.preprocessing.image import ImageDataGenerator
 
-def prediction(imgs, target_size=(64, 64)):
+def prediction(imgs):
 
     images = imgs
     # Rescale images
