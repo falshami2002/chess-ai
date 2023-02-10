@@ -33,9 +33,5 @@ model.compile(optimizer='adam',
 # Train the model
 model.fit(train_generator, epochs=10)
 
-# Evaluate the model on test data
-test_loss, test_acc = model.evaluate(train_generator, verbose=2)
-print('Test accuracy:', test_acc)
-
 # Save model
 model.save('boardModel.h5')
